@@ -1,6 +1,5 @@
 <?php 
 header('Content-Type: application/json');
-
 require_once $_SERVER["DOCUMENT_ROOT"].'/core/config.php';
 
 $api = $_GET["action"] ?? null;
